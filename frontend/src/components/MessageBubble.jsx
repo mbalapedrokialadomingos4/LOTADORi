@@ -1,3 +1,4 @@
+import PlaceCard from "./PlaceCard";
 export default function MessageBubble({ message }) {
   const isTourist = message.role === "tourist";
 
