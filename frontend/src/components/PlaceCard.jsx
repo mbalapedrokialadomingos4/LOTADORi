@@ -1,11 +1,11 @@
-export default function PlaceCard({ place }) {
+export default function PlaceCard({ place, onExplore }) {
   return (
     <div className="flex gap-3 rounded-xl border border-slate-200 bg-white p-3 shadow-sm">
 
       <img
         src={place.image}
         alt={place.name}
-        className="h-28 w-28 rounded-lg object-cover"
+        className="h-46 w-36 rounded-lg object-cover"
       />
 
       <div className="flex flex-1 flex-col">
@@ -38,7 +38,10 @@ export default function PlaceCard({ place }) {
           Melhor Horário (🕒): {place.schedule}
         </p>
 
-        <button className="mt-3 rounded-lg bg-blue-600 px-4 py-2 text-white">
+        <button
+        onClick={onExplore}
+        className="mt-3 rounded-lg bg-blue-600 px-4 py-2 text-white hover:bg-blue-700 transition"
+        >
         Explorar
         </button>
 

@@ -8,7 +8,16 @@ export const places = [
     duration: "",
     price: "",
     distance: "",
-    schedule: ""
+    schedule: "",
+    description:
+    "O Miradouro da Lua é uma formação geológica única localizada a sul de Luanda, conhecida pelas suas paisagens impressionantes.",
+    highlights: [
+    "Paisagens únicas",
+    "Fotografia",
+    "Natureza"
+    ],
+    travelTime: "45 minutos"
+
   },
   {
     id: 2,
@@ -19,7 +28,15 @@ export const places = [
     duration: "",
     price: "",
     distance: "",
-    schedule: ""
+    schedule: "",
+    description:"",
+    highlights: [
+    "",
+    "",
+    ""
+    ],
+    travelTime: "45 minutos"
+    
   },
     {
     id: 3,
@@ -30,10 +47,17 @@ export const places = [
     duration: "",
     price: "",
     distance: "",
-    schedule: ""
+    schedule: "",
+    description:"",
+    highlights: [
+    "",
+    "",
+    ""
+    ],
+    travelTime: ""
   },
       {
-    id: 3,
+    id: 4,
     name: "Museu da Escravatura",
     image: "",
     rating: "3.0",

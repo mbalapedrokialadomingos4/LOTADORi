@@ -15,6 +15,7 @@ export const useChatStore = create((set, get) => ({
       "agent",
       "Bem-vindo a Angola! 👋 Sou o TurismoConnect, o teu assistente de viagem. Escreve uma mensagem para começarmos."
     ),
+    
   ],
   isSending: false,
 
